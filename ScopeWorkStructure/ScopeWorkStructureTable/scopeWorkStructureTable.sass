@@ -1,0 +1,21 @@
+@import "@/components/assemblies/AssembliesObjectTable/assembliesObjectTable"
+
+.cell
+  border-left: none
+  overflow: hidden
+  text-overflow: ellipsis
+  white-space: nowrap
+
+.resizer
+  position: absolute
+  top: 0
+  right: 0
+  width: 5px
+  height: 50px
+  cursor: col-resize
+  user-select: none
+  border-right: 2px solid blue
+  border-right: 2px solid transparent
+.resizer:hover,
+.resizing
+  border-right: 1px dashed blue
